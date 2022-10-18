@@ -4,12 +4,18 @@ go 1.18
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6
+	github.com/dghubble/go-twitter v0.0.0-20220816163853-8a0df96f1e6d
+	github.com/dghubble/oauth1 v0.7.1
+	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/spf13/cobra v1.5.0
 	github.com/spf13/viper v1.13.0
 )
 
 require (
+	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
+	github.com/dghubble/sling v1.4.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
