@@ -9,6 +9,11 @@ import (
 	"github.com/spf13/viper"
 )
 
+var (
+	fInit  bool
+	fLogin bool
+)
+
 func RootCmd() *cobra.Command {
 	cmd := &cobra.Command{
 		Use: "tw",
@@ -30,7 +35,8 @@ func RootCmd() *cobra.Command {
 		},
 	}
 
-	cmd.Flags().StringP("text", "t", "", "Tweet text")
+	cmd.Flags().BoolVar(&fInit, "init", false, "Initialize TwCli")
+	cmd.Flags().BoolVar(&fLogin, "login", false, "Login to TwCli")
 
 	return cmd
 }
