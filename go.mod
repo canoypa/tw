@@ -1,4 +1,4 @@
-module github.com/canoypa/twcli
+module github.com/canoypa/tw
 
 go 1.18
 

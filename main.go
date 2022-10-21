@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/canoypa/twcli/cmd"
+	"github.com/canoypa/tw/cmd"
 )
 
 func main() {

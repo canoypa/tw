@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/canoypa/twcli/utils"
+	"github.com/canoypa/tw/utils"
 	"github.com/dghubble/go-twitter/twitter"
 	"github.com/dghubble/oauth1"
 	twAuth "github.com/dghubble/oauth1/twitter"
